@@ -20,7 +20,7 @@ if response == 'y':
             file_out.write(line)
 
     num_lines = sum(1 for line in open('results.txt'))
-    print("Number of zombie accounts", num_lines)
+    print("Number of zombie accounts are ", num_lines)
 
 elif response == 'n':
     print ("u ok hun")
